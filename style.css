@@ -122,8 +122,7 @@ a {
 
 .footer .nada{
     width: 80px;
-    
-    
+ 
 }
 
 
@@ -241,25 +240,27 @@ form{
    
 }
 input{
-    border: none;
     padding:20px 255px 20px 10px;
     margin: 6px 9px 10px 10px;
     border-radius: 10px;
     background-color: RGBA(255,255,255,0.5);
+    background: linear-gradient(to bottom,#f9c743, white);
     
 }
 
 textarea{
-
-    padding-right:200px; 
+    padding:10px 105px 20px 105px;
+    margin: 6px 9px 10px 10px;
     border-radius: 10px;
+    background: linear-gradient(to bottom,#f9c743, white);
     background-color: RGBA(255,255,255,0.5);
+  
 }
-
 button{
     border-radius: 20px;
     margin: 0px 0px 0px 0px;
     padding: 20px 50px 20px 35px;
+    background: linear-gradient(to bottom,#f9c743, white);  
 }
 
 .forma{
@@ -283,16 +284,23 @@ button{
 }
 
 
-.form  #file{
+.form #file{
+    border: 1px solid;
+    padding:20px 118px 20px 10px;
+    margin: 6px 9px 10px 10px;
+    border-radius: 10px;
     background-color: RGBA(255,255,255,0.5);
-    padding:0px 10px 0px 5px;
 }
 .form #porcentaje{
-    padding:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;   
+    border-radius: 10px;
+    background-color: RGBA(255,255,255,0.5);
 }
 .form  #date{
+    padding:20px 280px 20px 10px;
+    margin: 6px 9px 10px 10px;
+    border-radius: 10px;
     background-color: RGBA(255,255,255,0.5);
-    padding:0px 0px 0px 0px;
 }
 .form p{
     font-size: 18px;
@@ -303,14 +311,21 @@ button{
     font-size: 18px;
     text-align: center;
     border-radius: 20px;
-    padding:0px 0px 0px 0px;
+    padding:0px 10px 0px 0px;
     background-color: RGBA(255,255,255,0.5);
 }
 
 .form  #barrio{
-    font-size: 18px;
-    text-align: center;
-    padding:0px 41px 0px 0px;
-    border-radius: 20px;
+ 
+    padding:20px 290px 20px 10px;
+    margin: 6px px 15px 0px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom,#f9c743, white);
     background-color: RGBA(255,255,255,0.5);
 }
+
+#puntaje{
+    margin: 0px 0px 0px  0px;
+}
+
+
