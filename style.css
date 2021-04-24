@@ -336,4 +336,12 @@ button{
     margin: 0px 0px 0px  0px;
 }
 
+.hecho.git{
+    display: flex;
+    flex-direction: row;
+}
 
+.git{
+    height: 20px;
+    width: 30px;
+}
